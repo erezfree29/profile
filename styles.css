@@ -1,0 +1,112 @@
+.table {
+
+  border: 1
+  width: 8px;
+
+}
+
+ul {
+ list-style-type: none;
+ display: inline;
+
+ }
+
+#me{
+
+  width: 250px;
+  height: 400px;
+
+}
+#forest{
+
+  width: 250px;
+  height: 300px;
+
+}
+
+#life {
+
+  width: 250px;
+  height: 300px;
+
+}
+
+#American {
+
+  width: 200px;
+  height: 250px;
+
+}
+
+body {
+
+  background-color:#DADCED;
+  font-family:Times,serif;
+  color:#FF530D;
+  font-size:15px;
+  line-height:50%;
+
+}
+
+h1,h2
+
+{
+
+  color:#928FC9;
+  font-family:;Ariel,sans-serif;
+  line-height:50%;
+  font-size:30px;
+
+
+}
+
+a {
+
+ color: rgb(0, 153, 255);
+ text-decoration:underline;
+ word-spacing: 20px;
+
+
+}
+
+.container {
+
+  text-align:center;
+  width: 1400px;
+  margin: 0 auto
+
+
+}
+
+
+h3
+{
+text-align:center;
+}
+
+.card
+
+{
+   background-color: lightblue;
+   border-top: 1px solid red;
+   border-right: 2px dotted black;
+  border-bottom: 1px dashed green;
+  border-left: 2px dotted black;
+  box-shadow: 2px 2px 3px blue:
+  padding: 30px;                              /* Internal space */
+  border-radius: 10px;
+
+
+
+
+}
+
+p{
+
+font-size:20px;
+}
+
+.des {
+
+  font-size: 50px;
+}
