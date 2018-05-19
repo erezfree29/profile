@@ -6,28 +6,31 @@
 }
 
 ul {
- list-style-type: none;
- display: inline;
+ display: flex;
+ display:inline-block;
+ justify-content:space-around;
+ list-style-type: none
+
 
  }
 
 #me{
 
-  width: 250px;
-  height: 400px;
+  width: 600px;
+  height: 800px;
 
 }
 #forest{
 
-  width: 250px;
-  height: 300px;
+  width: 200px;
+  height: 250px;
 
 }
 
 #life {
 
-  width: 250px;
-  height: 300px;
+  width: 200px;
+  height: 250px;
 
 }
 
@@ -38,21 +41,12 @@ ul {
 
 }
 
-body {
 
-  background-color:#DADCED;
-  font-family:Times,serif;
-  color:#FF530D;
-  font-size:15px;
-  line-height:50%;
 
-}
-
-h1,h2
-
+h2
 {
 
-  color:#928FC9;
+  color:green;
   font-family:;Ariel,sans-serif;
   line-height:50%;
   font-size:30px;
@@ -62,51 +56,80 @@ h1,h2
 
 a {
 
- color: rgb(0, 153, 255);
+ color: #D3E8DB;
  text-decoration:underline;
- word-spacing: 20px;
-
 
 }
 
-.container {
-
-  text-align:center;
-  width: 1400px;
-  margin: 0 auto
-
-
-}
-
-
-h3
+.topprofle p
 {
-text-align:center;
+
+  padding-top:40px;
+  font-size:35px;
 }
 
-.card
+#myname
+{
+ color:white;
+ font-size:50px;
+
+}
+body
+{
+ background-image:url("images/backgroundimage.jpg");
+
+}
+
+
+ a
+ {
+   margin-right:15px;
+
+ }
+
+ #movies
+ {
+
+  margin-top:115px;
+  font-size:30px;
+  color:rgba(204, 204, 0,0.5);
+
+ }
+#job
 
 {
-   background-color: lightblue;
-   border-top: 1px solid red;
-   border-right: 2px dotted black;
-  border-bottom: 1px dashed green;
-  border-left: 2px dotted black;
-  box-shadow: 2px 2px 3px blue:
-  padding: 30px;                              /* Internal space */
-  border-radius: 10px;
-
-
+ text-decoration: underline;
+ color: #ff9999;
 
 
 }
-
-p{
-
+li
+{
 font-size:20px;
+margin-top:40px;
+margin-bottom:40px;
+
 }
 
-.des {
+.picture_and_quotes
+{
+  display:text;
 
-  font-size: 50px;
+}
+
+.picture_and_quotes
+
+{
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  justify-content:space-around
+}
+
+
+.quote
+{
+color:white;
+font-size:40px;
 }
